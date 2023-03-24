@@ -1,0 +1,38 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Navbar nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar a {
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .Navbar a:hover {
+    color: #0077b6;
+  }
+  
+  .Navbar .cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+  
+  .Navbar .cart-icon:hover {
+    color: #0077b6;
+  }
+  
